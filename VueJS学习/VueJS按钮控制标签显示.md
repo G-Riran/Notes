@@ -24,15 +24,14 @@ PS:
 >reactive：创建一个包含多个属性的可相应对象
 >该用例中建议使用ref
 
-    使用reactive需要注意的地方：
-        ```
-        const isDisplay = reactive({
-          Display: true
-        })
+    ```使用reactive需要注意的地方  
+    const isDisplay = reactive({
+        Display: true
+    })
 
-        const Switch = () => {
-            isDisplay.Display = !isDisplay.Display
-        }
+    const Switch = () => {
+        isDisplay.Display = !isDisplay.Display
+    }
 
-        <p v-show=isDisplay.Display>Hello</p>
-        ```
+    <p v-show=isDisplay.Display>Hello</p>
+    ```
