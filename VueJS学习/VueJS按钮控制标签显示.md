@@ -24,7 +24,8 @@ PS:
 >reactive：创建一个包含多个属性的可相应对象  
 >该用例中建议使用ref
 
-``` 使用reactive需要注意的地方  
+```
+使用reactive需要注意的地方:
 const isDisplay = reactive({
     Display: true
 })
