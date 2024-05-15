@@ -1,4 +1,4 @@
-'''
+```
 <script>
     const isDisplay = ref(true)
     const Switch = () => {
@@ -9,7 +9,7 @@
     <p v-show: isDisplay>Hello</p>
     <button @click: Switch>switch</button>
 </template>
-'''
+```
 
 PS:
 1、v-show v-if通用
